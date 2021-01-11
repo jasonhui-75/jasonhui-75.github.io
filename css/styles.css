@@ -10049,9 +10049,9 @@ p.lead {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    max-width: 10rem !important;
+    max-height: 10rem !important;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2) !important;
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -10174,4 +10174,14 @@ section.resume-section .resume-section-content {
 
 .pName {
   color:whitesmoke;
+}
+a {
+  -webkit-text-decoration-color: rgba(255, 255, 255, 0.5) !important; /* Safari */  
+  text-decoration-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+#dp{
+  max-width: 10rem !important;
+  max-height: 10rem !important;
+  border: 0.5rem solid rgba(255, 255, 255, 0.2) !important;
 }

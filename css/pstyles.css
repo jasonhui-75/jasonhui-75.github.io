@@ -1,3 +1,6 @@
+/**
+Hi and thank you for checking my code out. :D
+**/
 section.project-section {
     display: flex;
     align-items: center;
@@ -57,6 +60,7 @@ section.project-section .project-section-content {
 
 
 .button:hover {
+    color: rgba(255, 255, 255, 0.9) !important;
     background-color: rgba(0, 0, 0, 0.8) !important;
     border-color: rgba(10, 10, 10, 0.8) !important;
   }
@@ -80,6 +84,7 @@ section.project-section .project-section-content {
 }
 
 .wbutton:hover {
+  color: rgba(0, 0, 0, 0.9) !important;
     background-color: rgba(255, 255, 255, 0.8)!important;
     border-color: rgba(245, 245, 245, 0.8)!important;
 }

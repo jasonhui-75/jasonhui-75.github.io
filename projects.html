@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Jason" />
     <meta name="description" content="Jason's portfolio" />
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Roboto:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-        <link href="css/pstyles.css" rel="stylesheet" />
-    
+    <link rel="icon" type="image/x-icon" href="./img/iconified/apple-touch-icon.png"/>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,800,800i" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap) Modified by J.H.-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- My own stylesheet-->
+    <link href="css/pstyles.css" rel="stylesheet" />
     <title>Jason's Portfolio</title>
   </head>
   <body id="page-top">
@@ -22,11 +22,9 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-block d-lg-none">Jason Hui</span>
-        <span class="d-none d-lg-block">
-            <a href="./index.html">
-                <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/dp1.jpg" alt="My Image" />
-            </a>
-        </span>
+        <a href="index.html">
+            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" id="dp" src="img/dp1.jpg" alt="" /></span>
+        </a>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -59,9 +57,7 @@
                 <div class="row justify-content-start no-gutters mb-5 mb-lg-0">
                     <div class="col-xl-8 col-lg-12">
                         <div>
-                            <a  href="./projects.html">
-                                <img class="img-fluid" src="img/g1.gif" alt="My Google serach clone"/>
-                            </a>  
+                            <img class="img-fluid" src="img/g1.gif" alt="My Google serach clone"/>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-12">
@@ -106,9 +102,9 @@
                         <div class="wblock">
                             <div class="project-text w-100 my-auto ">
                                 <h3 class ="title text-black">Links</h3>
-                                <div class="col"><a class="button" href="https://github.com/jasonhui-75/Google-Search-Clone">Github</a></div>
+                                <div class="col"><a class="btn button" href="https://github.com/jasonhui-75/Google-Search-Clone">Github</a></div>
                                 <hr>
-                                <div class="col"><a class="button" href="./Google Search/index.html">Demo</a></div>
+                                <div class="col"><a class="btn button" href="./Google Search/index.html">Demo</a></div>
                             </div>
                         </div>
                     </div>
@@ -116,6 +112,7 @@
             </div>
         </section>
         <hr class="m-0" />
+        <!-- p2-->
         <section class="resume-section" id="pro2">
             <div class="resume-section-content" >
                 <div class="row justify-content-start no-gutters mb-5 mb-lg-0">
@@ -160,7 +157,7 @@
                         <div class="wblock">
                             <div class="project-text w-100 my-auto ">
                                 <h3 class ="title text-black">Links</h3>
-                                <div class ="col"><a class="button" href="https://github.com/jasonhui-75/Shell">Github</a></div>
+                                <div class ="col"><a class="btn button" href="https://github.com/jasonhui-75/Shell">Github</a></div>
                             </div>
                         </div>
                     </div>
@@ -205,8 +202,8 @@
                             <div class="project-text w-100 my-auto ">
                                 <h3 class ="title text-black">Objective</h3>
                                 <div>
-                                    <p>Creating my own reverb VST by using 4 different methods, which are using JUCE reverb module, convolution module with recorded/constructed impulse response, and with multiple delays</p>
-                                    <p>The demo section below contains videos that demonstrate how each reverb sound. The audio file is also included in case if video is not supported</p>
+                                    <p>Creating my own reverb VST by using 4 different methods, which includes using JUCE reverb module, convolution module with recorded/constructed impulse response, and with multiple delays</p>
+                                    <p>The demo section below contains videos that demonstrate how each reverb sound. The audio file is also included in case if video playing is not supported by the browser</p>
                                 </div>
                             </div>
                         </div>
@@ -215,9 +212,7 @@
                         <div class="wblock">
                             <div class="project-text w-100 my-auto ">
                                 <h3 class ="title text-black">Links</h3>
-                                <div class ="row">
-                                    <div class ="col"><a class="btn btn-primary button" href="https://github.com/jasonhui-75/Shell">Github</a></div>
-                                </div>
+                                <div class ="col"><a class="btn button" href="https://github.com/jasonhui-75/Reverb-Vst">Github</a></div>
                             </div>
                         </div>
                     </div>
@@ -247,7 +242,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-6">
-                                        <p>3) This is implemented using the JUCE convolution module. User has the option to pick from the five available impulse response or load their own desired impulse response </p>
+                                        <p>3) This is implemented using the JUCE convolution module. User has the option to pick from the five available impulse responses or load their own desired impulse response </p>
                                     </div>
                                     <div class="col-lg">
                                         <p><a class="btn btn-primary button wbutton" data-toggle="collapse" href="#R2" role="button" aria-expanded="false" aria-controls="2R">Recorded IR</a></p>
@@ -263,7 +258,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-6">
-                                        <p>5) This is implemented using multiple delays and a highpass filter.  </p>
+                                        <p>5) This is implemented using multiple delays and a highpass filter </p>
                                     </div>
                                     <div class="col-lg">
                                         <p><a class="btn btn-primary button wbutton" data-toggle="collapse" href="#R4" role="button" aria-expanded="false" aria-controls="4R">Delays</a></p>
@@ -309,7 +304,7 @@
                                     </div>  
                                     <div>
                                         <br>
-                                        <p>In the demo, paramemetrs such as room, width, dry/wet level are tweaked to showcase the the different settings of the reverb </p>
+                                        <p>In the demo, paramemetrs such as room, width, dry/wet level are tweaked to showcase the different settings of the reverb </p>
                                         
                                         <audio controls>
                                             <source src="./audio/1st.mp3" type="audio/mp3">
@@ -327,7 +322,7 @@
                                     </div>
                                     <div>
                                         <br>
-                                        <p>This reverb has 5 recorded impulse recorded available to choose from. In the second half of the video, I used the footsteps recording to demonstrate the reverb instead because the reverb is more obvious</p>
+                                        <p>This reverb has 5 recorded impulse responses to choose from. In the second half of the video, I used the footsteps recording to demonstrate the reverb instead because the reverb is more obvious</p>
                                         <audio controls>
                                             <source src="./audio/2nd.mp3" type="audio/mp3">
                                         Your browser does not support the audio element.
@@ -361,8 +356,8 @@
                                         </video>
                                     </div>
                                     <div>
-                                        <p>This reverb in my opinon is the most unique one as it creates a unique metalic reverb tail. Changing the parameeters of each delay can create drastically different timbre</p>
                                         <br>
+                                        <p>This reverb in my opinon is the most unique one as it creates a unique metalic reverb tail. Changing the parameeters of each delay can create drastically different timbre</p>
                                         <audio controls>
                                             <source src="./audio/4th.mp3" type="audio/mp3">
                                         Your browser does not support the audio element.
