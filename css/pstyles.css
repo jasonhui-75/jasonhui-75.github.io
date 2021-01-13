@@ -102,3 +102,7 @@ background-color: rgba(255, 255, 255, 0.8)!important;
     flex-wrap: wrap !important;
   }
 }
+
+#gif2 {
+  width:100%;
+}
